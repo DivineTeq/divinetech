@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #ece5e0;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.image{
+    width: 10%;
+    height: 100px;
+    border-radius: 5px;
+    position: fixed;
+}
+
+.image:hover{
+    width: 15%;
+    height: 120px;
+    transition: 1s;
+}
+
+nav ul{
+    display: flex;
+    padding: 0 20px;
+    margin: 20px;
+    width: 100%;
+    margin-left: 50px;
+    position: relative;
+    margin-left: 150px;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 0 20px;
+    margin: 0 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: red;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.butty{
+    height: 40px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    color: wheat;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+}
+
+.butty:hover{
+    background-color: black;
+}
+
+.home{
+    width: 100%;
+    display: flex;
+}
+
+.intro{
+    padding: 0 20px 10px 20px;
+    font-family: monospace;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.name{
+    padding-left: 60px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color: aqua;
+    margin-left: 20px;
+}
+
+.divine{
+    color: rgb(243, 36, 4)
+}
+
+.pro{
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: bold;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.web{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 50px;
+    color: goldenrod;
+}
+
+.divinepic{
+    height: 500px;
+}
+
+.pic{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 150px;
+}
+
+.divinepic:hover{
+    height: 600px;
+    transition: 1s;
+}
+
+.about{
+    background: #d85f14;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.centerer{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    
+}
+
+.about_desc{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.about a{
+    color: blue;
+    text-decoration: none;
+}
+
+.about a:hover{
+    color: red;
+}
+
+.service{
+    background-color: aquamarine;
+}
+
+.service .centerer h1{
+    margin-top: 20px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper .box{
+    background-color: rgb(4, 221, 37);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wrapper .box h3{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.wrapper .box p{
+    font-size: 30px;
+}
+
+.skills .wrapper{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.skills .wrapper .box{
+    padding: 0;
+}
+
+.skills{
+    background-color: rgb(146, 215, 16);
+}
+
+.contact{
+    background-color: azure;
+}
